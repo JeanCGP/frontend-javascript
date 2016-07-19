@@ -1,4 +1,14 @@
-/*var work = {
+/*
+*As you've learned in this course, there are two syntaxes to declare functions
+
+var functionName = function() {}
+
+and
+
+function functionName() {}
+*
+
+var work = {
   "jobs": [
     {
       "employer": "Udacity",
