@@ -1,4 +1,4 @@
-var work = {
+/*var work = {
   "jobs": [
     {
       "employer": "Udacity",
@@ -44,4 +44,14 @@ function locationizer(work_obj) {
 }
 
 // Did locationizer() work? This line will tell you!
-console.log(locationizer(work));
+console.log(locationizer(work));*/
+
+function inName(name){
+	name = name.trim().split(" ");
+	console.log(name);
+	name[1]=name[1].toUpperCase();
+	name[0]=name[0].slice(0,1).toUpperCase()+name[0].slice(1).toLowerCase();
+	return name[0] + " " + name[1];
+}
+//$("#main").append(internationalizeBUtton);
+console.log(inName("JeAN GOmeS"))
